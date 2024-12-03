@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    padding-right: 80px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    background-color: rgb(47, 66, 175);
+    background: #020949f5;
+    height: 8vh;
+    left: 92px;
+}
+.button-centralizado {
+    text-align: center;
+    font-family: fantasy;
+
+
+}
+
+body {
+    background-color: rgba(88, 70, 255, 0.795);
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0% 8% 0% 8%;
+    text-align: justify;
+    color: #000e5c;
+    font-size: 25px;
+    background-color: rgba(199, 192, 235, 0);
+    background-position-x: center;
+}
+
+.borda {
+    width: 100%;
+    font-weight: bold;
+    position: fixed;
+}
+
+.borda {
+    display: inline;
+    margin: 30px;
+    margin-top: 15px;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #06055a;
+    text-shadow: -1px -1px 0 #000;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 30%;
+    transition: transform 0.5s ease;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+    margin: 18%;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+/* estilo para as imagens nos input selecionado */
+
+#slide1:checked~.carousel-slide {
+    transform: translateX(40%);
+}
+
+#slide2:checked~.carousel-slide {
+    transform: translateX(-40%);
+    margin-right: 180px;
+}
+
+#slide3:checked~.carousel-slide {
+    transform: translateX(-90%);
+    margin-right: 100px;
+}
+
+#slide4:checked~.carousel-slide {
+    transform: translateX(-200%);
+    /* navegação */
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.navigation label {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 33px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 52px;
+}
+
+#centro {
+    align-items: center;
+    display: flex;
+    height: 40vw;
+    justify-content: center;
+}
+
+
+footer {
+    background-color: rgb(47, 66, 175);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    bottom: 0;
+}
